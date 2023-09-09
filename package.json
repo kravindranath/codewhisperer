@@ -1,0 +1,32 @@
+{
+  "name": "next12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kravindranath/next12.git",
+  "author": "Ravindranath K",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "telemetry": "next telemetry",
+    "lint": "next lint --no-cache"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.26.1",
+    "lodash": "^4.17.21",
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-redux": "^7.2.8",
+    "swr": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "^8.5.0",
+    "sass": "^1.45.0"
+  }
+}
